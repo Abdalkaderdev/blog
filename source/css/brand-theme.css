@@ -11,6 +11,29 @@
   --transition: 0.8s cubic-bezier(0.19, 1, 0.22, 1);
 }
 
+/* Override any theme colors */
+.is-primary, .has-background-primary {
+  background-color: var(--color-accent) !important;
+  color: #ffffff !important;
+}
+
+.has-text-primary {
+  color: var(--color-accent) !important;
+}
+
+.is-link, .has-text-link {
+  color: var(--color-accent) !important;
+}
+
+.is-info, .has-background-info {
+  background-color: var(--color-accent) !important;
+  color: #ffffff !important;
+}
+
+.has-text-info {
+  color: var(--color-accent) !important;
+}
+
 /* Global overrides */
 * {
   color: var(--color-text-primary) !important;
@@ -96,7 +119,7 @@ a:hover, .link:hover {
 }
 
 /* Tags and labels */
-.tag, .label {
+.tag, .label, .tag.is-primary, .tag.is-info, .tag.is-link {
   background-color: var(--color-accent) !important;
   color: #ffffff !important;
   border-radius: 4px !important;
@@ -104,9 +127,19 @@ a:hover, .link:hover {
   font-weight: 500 !important;
 }
 
-.tag:hover, .label:hover {
+.tag:hover, .label:hover, .tag.is-primary:hover, .tag.is-info:hover, .tag.is-link:hover {
   background-color: var(--color-accent-hover) !important;
   color: #ffffff !important;
+}
+
+/* Widget tags specifically */
+.widget .tag, .widget .tags .tag {
+  background-color: var(--color-accent) !important;
+  color: #ffffff !important;
+}
+
+.widget .tag:hover, .widget .tags .tag:hover {
+  background-color: var(--color-accent-hover) !important;
 }
 
 /* Meta text */
