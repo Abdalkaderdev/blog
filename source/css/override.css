@@ -19,17 +19,17 @@ html, body {
 
 /* Override primary colors */
 .button, .tag, .pagination .current, a:hover {
-  background-color: #f44e00 !important;
+  background-color: #ff6b35 !important;
   color: #000 !important;
 }
 
 /* Override links */
 a {
-  color: #f44e00 !important;
+  color: #ff6b35 !important;
 }
 
 a:hover {
-  color: #fa7300 !important;
+  color: #ff8c42 !important;
 }
 
 /* Override navbar */
@@ -73,16 +73,16 @@ pre, code {
 
 /* Override borders and gradients */
 .card::before, .article::before, .widget::before {
-  background: linear-gradient(90deg, #f44e00, #fa7300) !important;
+  background: linear-gradient(90deg, #ff6b35, #ff8c42) !important;
 }
 
 /* Override scrollbar */
 ::-webkit-scrollbar-thumb {
-  background: #f44e00 !important;
+  background: #ff6b35 !important;
 }
 
 /* Override selection */
 ::selection {
-  background-color: #f44e00 !important;
+  background-color: #ff6b35 !important;
   color: #000 !important;
 }
