@@ -318,13 +318,7 @@ plugins:
     # https://analytics.google.com
     google_analytics:
         # Google Analytics tracking ID
-        tracking_id:
-    # Plausible Analytics (privacy-friendly)
-    plausible:
-        # Your domain (e.g., abdalkader.dev)
-        domain: abdalkader.dev
-        # Plausible script URL (default: https://plausible.io/js/script.js)
-        src: https://plausible.io/js/script.js 
+        tracking_id: 'G-XXXXXXXXXX' 
     # Hotjar user feedback plugin
     # https://www.hotjar.com/
     hotjar:
