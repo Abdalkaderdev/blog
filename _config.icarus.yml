@@ -48,18 +48,18 @@ head:
         url: 
         # Page cover (og:image) (optional)
         # You should leave this blank for most of the time
-        image: 
+        image: https://abdalkader.dev/favicon.png
         # Site name (og:site_name) (optional)
         # You should leave this blank for most of the time
-        site_name: 
+        site_name: "Abdalkader's Blog"
         # Page author (article:author) (optional)
         # You should leave this blank for most of the time
-        author: 
+        author: Abdalkader
         # Page description (og:description) (optional)
         # You should leave this blank for most of the time
         description: 
         # Twitter card type (twitter:card)
-        twitter_card: 
+        twitter_card: summary_large_image
         # Twitter ID (twitter:creator)
         twitter_id: 
         # Twitter Site (twitter:site)
@@ -106,9 +106,11 @@ head:
         - /css/override.css
         - /css/force-colors.css
         - /css/theme-toggle.css
+        - /css/social-share.css
     # Custom JS files
     js:
         - /js/theme-toggle.js
+        - /js/social-share.js
     # URL or path to the website's RSS atom.xml
     rss: /atom.xml 
 # Page top navigation bar configurations
