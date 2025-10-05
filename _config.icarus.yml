@@ -1,7 +1,7 @@
 # Version of the configuration file
 version: 5.1.0
 # Icarus theme variant, can be "default" or "cyberpunk"
-variant: default
+variant: abdalkader
 # Path or URL to the website's logo
 logo: /favicon.png
 # Page metadata configurations
@@ -102,10 +102,8 @@ head:
         - 'name=msapplication-TileColor;content=#ff7a25'
     # Custom CSS files
     css:
-        - /css/brand-theme.css
         - /css/theme-toggle.css
         - /css/social-share.css
-        - /css/force-override.css
     # Custom JS files
     js:
         - /js/theme-toggle.js
