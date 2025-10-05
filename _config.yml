@@ -35,13 +35,15 @@ relative_link: false
 future: true
 syntax_highlighter: highlight.js
 highlight:
+  enable: true
   line_number: true
   auto_detect: false
   tab_replace: ''
   wrap: true
   hljs: false
 prismjs:
-  preprocess: true
+  enable: false
+  preprocess: false
   line_number: true
   tab_replace: ''
 index_generator:
@@ -81,6 +83,43 @@ feed:
   order_by: -date
   icon: icon.png
   autodiscovery: true
+
+# Search Database
+search:
+  path: search.xml
+  field: post
+  content: true
+  format: html
+
+# Word Count
+symbols_count_time:
+  symbols: true
+  time: true
+  total_symbols: true
+  total_time: true
+  exclude_codeblock: false
+  awl: 4
+  wpm: 275
+  suffix: "mins."
+
+# Prism Syntax Highlighting
+prism_plugin:
+  mode: 'preprocess'
+  theme: 'tomorrow'
+  line_number: true
+  custom_css:
+
+# Related Posts
+related_posts:
+  enable: true
+  title: "Related Posts"
+  display_in_home: false
+  params:
+    maxCount: 5
+    PPMixingRate: 0.0
+    isDate: false
+    isImage: false
+    isExcerpt: false
 
 deploy:
   type: ''

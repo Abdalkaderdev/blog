@@ -147,6 +147,8 @@ article:
         fold: unfolded
     # Whether to show estimated article reading time
     readtime: true
+    # Whether to show word count
+    wordcount: true
     # Whether to show updated time. For "auto", shows article update time only when page.updated is set and it is different from page.date
     update_time: true
     # Article licensing block
@@ -166,6 +168,8 @@ search:
     type: insight
     # Whether to include pages in the search results
     index_pages: true
+    # Search database path
+    cx: search.xml
 # Comment plugin configurations
 # https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/Comment/
 comment:
@@ -312,7 +316,13 @@ plugins:
     # https://analytics.google.com
     google_analytics:
         # Google Analytics tracking ID
-        tracking_id: 
+        tracking_id:
+    # Plausible Analytics (privacy-friendly)
+    plausible:
+        # Your domain (e.g., abdalkader.dev)
+        domain: abdalkader.dev
+        # Plausible script URL (default: https://plausible.io/js/script.js)
+        src: https://plausible.io/js/script.js 
     # Hotjar user feedback plugin
     # https://www.hotjar.com/
     hotjar:
