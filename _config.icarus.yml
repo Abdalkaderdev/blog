@@ -111,6 +111,8 @@ head:
     js:
         - /js/theme-toggle.js
         - /js/social-share.js
+        - /js/performance.js
+        - /js/umami-analytics.js
     # URL or path to the website's RSS atom.xml
     rss: /atom.xml 
 # Page top navigation bar configurations
@@ -121,6 +123,7 @@ navbar:
         Archives: /archives
         Categories: /categories
         Tags: /tags
+        Projects: /projects
         About: /about
     # Links to be shown on the right of the navigation bar
     links:
