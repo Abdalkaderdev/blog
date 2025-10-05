@@ -105,6 +105,7 @@ head:
         - /css/brand-theme.css
         - /css/theme-toggle.css
         - /css/social-share.css
+        - /css/force-override.css
     # Custom JS files
     js:
         - /js/theme-toggle.js
