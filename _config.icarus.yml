@@ -105,6 +105,10 @@ head:
         - /css/custom.css
         - /css/override.css
         - /css/force-colors.css
+        - /css/theme-toggle.css
+    # Custom JS files
+    js:
+        - /js/theme-toggle.js
     # URL or path to the website's RSS atom.xml
     rss: /atom.xml 
 # Page top navigation bar configurations
