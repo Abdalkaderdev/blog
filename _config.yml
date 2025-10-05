@@ -121,5 +121,23 @@ related_posts:
     isImage: false
     isExcerpt: false
 
+# Algolia Search
+algolia:
+  applicationID: '12WCJTIDSP'
+  apiKey: 'd5276da306cd5167cb2f806ab031b302'
+  adminApiKey: 'ac2a2b4373dd07c932ababda28e97898'
+  indexName: 'abdalkader-blog'
+  chunkSize: 5000
+  fields:
+    - content:strip:truncate,0,500
+    - excerpt:strip
+    - gallery
+    - permalink
+    - photos
+    - slug
+    - tags
+    - title
+    - updated
+
 deploy:
   type: ''
