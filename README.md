@@ -203,9 +203,10 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 For questions or support:
 
-- **Email**: contact@abdalkader.dev
-- **GitHub**: [github.com/abdalkader](https://github.com/abdalkader)
-- **LinkedIn**: [linkedin.com/in/abdalkader](https://linkedin.com/in/abdalkader)
+- **Email**: hello@abdalkader.dev
+- **GitHub**: [github.com/abdalkaderdev](https://github.com/abdalkaderdev)
+- **LinkedIn**: [linkedin.com/in/abdalkaderdev](https://linkedin.com/in/abdalkaderdev)
+- **Instagram**: [instagram.com/abdalkader.dev](https://www.instagram.com/abdalkader.dev)
 
 ---
 

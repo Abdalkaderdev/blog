@@ -121,7 +121,7 @@ navbar:
             url: https://abdalkader.dev
         GitHub:
             icon: fab fa-github
-            url: https://github.com/abdalkader
+            url: https://github.com/abdalkaderdev
 # Page footer configurations
 footer:
     # Copyright text
@@ -218,18 +218,21 @@ widgets:
         # Email address for the Gravatar
         gravatar: 
         # URL or path for the follow button
-        follow_link: https://github.com/abdalkader
+        follow_link: https://github.com/abdalkaderdev
         # Links to be shown on the bottom of the profile widget
         social_links:
             Github:
                 icon: fab fa-github
-                url: https://github.com/abdalkader
+                url: https://github.com/abdalkaderdev
             LinkedIn:
                 icon: fab fa-linkedin
-                url: https://linkedin.com/in/abdalkader
+                url: https://linkedin.com/in/abdalkaderdev
+            Instagram:
+                icon: fab fa-instagram
+                url: https://www.instagram.com/abdalkader.dev
             Email:
                 icon: fas fa-envelope
-                url: mailto:contact@abdalkader.dev
+                url: mailto:hello@abdalkader.dev
             RSS:
                 icon: fas fa-rss
                 url: /atom.xml

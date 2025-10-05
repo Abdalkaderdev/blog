@@ -40,8 +40,9 @@ I believe in the power of sharing knowledge and contributing to the developer co
 
 I'm always excited to connect with fellow developers and tech enthusiasts. Feel free to reach out:
 
-- **GitHub**: [github.com/abdalkader](https://github.com/abdalkader)
-- **LinkedIn**: [linkedin.com/in/abdalkader](https://linkedin.com/in/abdalkader)
-- **Email**: [contact@abdalkader.dev](mailto:contact@abdalkader.dev)
+- **GitHub**: [github.com/abdalkaderdev](https://github.com/abdalkaderdev)
+- **LinkedIn**: [linkedin.com/in/abdalkaderdev](https://linkedin.com/in/abdalkaderdev)
+- **Instagram**: [instagram.com/abdalkader.dev](https://www.instagram.com/abdalkader.dev)
+- **Email**: [hello@abdalkader.dev](mailto:hello@abdalkader.dev)
 
 Thanks for visiting, and I hope you find the content here valuable for your development journey!
