@@ -67,6 +67,7 @@ $input-hover-border-color = #ff7a25
 // Additional overrides for specific elements
 .content
   color: var(--color-text-primary)
+  background-color: var(--color-bg-alt) !important
   
   h1, h2, h3, h4, h5, h6
     color: var(--color-text-primary)
@@ -77,6 +78,16 @@ $input-hover-border-color = #ff7a25
     
     &:hover
       color: var(--color-accent-hover)
+
+// Article content area
+.article-content, .content-body
+  background-color: var(--color-bg-alt) !important
+  color: var(--color-text-primary) !important
+
+// Article meta section
+.article-meta-wrap, .article-licensing
+  background-color: var(--color-bg-alt) !important
+  color: var(--color-text-secondary) !important
 
 .widget
   .widget-title
