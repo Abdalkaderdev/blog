@@ -8,7 +8,7 @@ author: Abdalkader
 language: en
 timezone: ''
 url: https://abdalkader.dev
-permalink: ':year/:month/:day/:title/'
+permalink: 'blog/:title/'
 permalink_defaults: null
 pretty_urls:
   trailing_index: false

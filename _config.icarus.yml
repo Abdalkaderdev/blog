@@ -117,9 +117,10 @@ navbar:
     # Navigation menu items
     menu:
         Home: /
-        Archives: /archives
-        Categories: /categories
-        Tags: /tags
+        Blog: /blog
+        Case Studies: /case-studies
+        Tutorials: /tutorials
+        Resources: /resources
         Projects: /projects
         About: /about
     # Links to be shown on the right of the navigation bar
@@ -189,7 +190,14 @@ donates: []
 # Share plugin configurations
 # https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/Share/
 share:
-    type: ''
+    type: sharejs
+    install_url: https://cdn.jsdelivr.net/npm/social-share.js@1/dist/js/social-share.min.js
+    sites:
+        - twitter
+        - linkedin
+        - reddit
+        - telegram
+        - whatsapp
 # Sidebar configurations.
 # Please be noted that a sidebar is only visible when it has at least one widget
 sidebar:
@@ -262,6 +270,23 @@ widgets:
         # Where should the widget be placed, left sidebar or right sidebar
         position: left
         type: recent_posts
+    # Featured posts widget
+    -
+        position: left
+        type: links
+        links:
+            "📚 Latest Tutorial":
+                url: /tutorials
+                icon: fas fa-book
+            "🔬 Case Studies":
+                url: /case-studies
+                icon: fas fa-microscope
+            "🛠️ Developer Resources":
+                url: /resources
+                icon: fas fa-tools
+            "📧 Newsletter":
+                url: mailto:hello@abdalkader.dev?subject=Newsletter%20Signup
+                icon: fas fa-envelope
     # Archives widget configurations
     -
         # Where should the widget be placed, left sidebar or right sidebar
