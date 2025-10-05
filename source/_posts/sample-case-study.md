@@ -4,8 +4,8 @@ date: 2025-01-01 11:00:00
 categories: [Case Studies, Performance]
 tags: [Performance, E-commerce, Next.js, Optimization, Case Study]
 excerpt: "How we improved page load times by 60% and increased conversion rates through strategic performance optimizations in a Next.js e-commerce platform."
-cover: /images/case-studies/ecommerce-optimization.jpg
-thumbnail: /images/case-studies/ecommerce-optimization-thumb.jpg
+cover: /images/case-studies/ecommerce-optimization.svg
+thumbnail: /images/case-studies/ecommerce-optimization-thumb.svg
 author: Abdalkader
 featured: true
 toc: true

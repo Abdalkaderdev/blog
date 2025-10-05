@@ -4,7 +4,7 @@ date: 2024-12-21 10:00:00
 categories: [Personal]
 tags: [Welcome, Journey, Web Development]
 excerpt: Welcome to my personal blog where I share my experiences, insights, and knowledge as a full-stack developer
-cover: /images/welcome-cover.jpg
+cover: /images/posts/welcome-cover.svg
 toc: false
 ---
 

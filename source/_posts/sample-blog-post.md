@@ -5,8 +5,8 @@ updated: 2025-01-01 10:00:00
 categories: [Web Development, Frontend]
 tags: [React, State Management, JavaScript, Frontend]
 excerpt: "Explore modern approaches to state management in React applications, from useState to advanced patterns with Context API and external libraries."
-cover: /images/posts/react-state-management.jpg
-thumbnail: /images/posts/react-state-management-thumb.jpg
+cover: /images/posts/react-state-management.svg
+thumbnail: /images/posts/react-state-management-thumb.svg
 author: Abdalkader
 featured: true
 toc: true

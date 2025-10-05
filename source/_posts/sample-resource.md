@@ -4,8 +4,8 @@ date: 2025-01-01 12:00:00
 categories: [Resources, Tools]
 tags: [VS Code, React, Extensions, Productivity, Tools]
 excerpt: "A curated list of must-have VS Code extensions that will supercharge your React development workflow and boost productivity."
-cover: /images/resources/vscode-extensions.jpg
-thumbnail: /images/resources/vscode-extensions-thumb.jpg
+cover: /images/resources/vscode-extensions.svg
+thumbnail: /images/resources/vscode-extensions-thumb.svg
 author: Abdalkader
 featured: false
 toc: true
