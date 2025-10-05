@@ -98,13 +98,11 @@ head:
     meta:
         # Meta tag specified in <attribute>=<value> style
         # E.g., name=theme-color;content=#123456 => <meta name="theme-color" content="#123456">
-        - 'name=theme-color;content=#ff6b35'
-        - 'name=msapplication-TileColor;content=#ff6b35'
+        - 'name=theme-color;content=#ff7a25'
+        - 'name=msapplication-TileColor;content=#ff7a25'
     # Custom CSS files
     css:
-        - /css/custom.css
-        - /css/override.css
-        - /css/force-colors.css
+        - /css/brand-theme.css
         - /css/theme-toggle.css
         - /css/social-share.css
     # Custom JS files
